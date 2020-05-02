@@ -1,0 +1,14 @@
+{
+    "name": "binlookup",
+    "description": "BinLookup Task",
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "yorch/phpbin" : "dev-master",
+        "catfan/medoo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
